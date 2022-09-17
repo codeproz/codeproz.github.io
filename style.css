@@ -1,0 +1,88 @@
+/*Code By Sohez*/
+* {
+  user-select: none;
+}
+*::selection {
+  background: none;
+}
+*::-moz-selection {
+  background: none;
+}
+
+body {
+  background-color: rgb(196, 173, 130);
+  font-family: cursive;
+}
+.wdt {
+  width: fit-content;
+  margin: auto;
+  padding: 15px 20px;
+}
+.col-3 {
+  text-align: center;
+  margin: 12px;
+}
+#usr1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: red;
+}
+#usr2 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: blue;
+}
+.col-11 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+#ux {
+  color: red;
+  font-size: 1.2rem;
+}
+#uo {
+  color: blue;
+  font-size: 1.2rem;
+}
+.col-2 {
+  background-color: #2f2f2f;
+  border: 1px solid wheat;
+  height: 110px;
+  width: 120px;
+  color: red;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+}
+.col-2:hover{
+  border: 3px solid wheat;
+}
+@media only screen and (max-width: 410px) {
+    .col-2{
+        height: 90px;
+        width: 100px;
+    }
+  
+  }
+  @media only screen and (max-width: 350px) {
+    .col-2{
+        height: 70px;
+        width: 80px;
+    }
+  
+  }
+  @media only screen and (max-width: 290px) {
+    .col-2{
+        height: 50px;
+        width: 60px;
+    }
+  
+  }
+  @media only screen and (max-width: 225px) {
+    .col-2{
+        height: 40px;
+        width: 50px;
+    }
+  
+  }
